@@ -21,21 +21,22 @@ if __name__ == '__main__':
     colors = ('red', 'blue', 'green', 'yellow', 'orange')
     
     # Make a new turtle
-    
+    mrgreen=turtle.Turtle()
     # Make the turtle shape 'turtle', .shape('turtle')
-    
+    mrgreen.shape('turtle')
     # Set the turtle speed to max (0)
-    
+    mrgreen.speed(0)
     # Set the turtle width to 1
-    
+    mrgreen.width(1)
     # Create a variable to hold the number of sides in a pentagon
-    
+    pent=5
     # Create a variable to be the angle of 360 divided by the sides variable
-    
+    ang=72
     # Use a for loop to repeat ALL the following lines of code 360 times. 
-        
+    for i in range(360):
         # If the loop variable (i) is equal to 100, set the turtle width to 2
-        
+        if i == 100:
+            mrgreen.width(2)
         # If the loop variable (i) is equal to 200, set the turtle width to 3
         
         # Use the get_next_color function to set the turtle pencolor,
