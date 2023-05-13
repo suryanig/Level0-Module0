@@ -61,16 +61,16 @@ if __name__ == '__main__':
     
     # 2. Call the set_background() function with your variable inside of the parenthesis
     #    for example, set_background(bg_image)
-
+    set_background('bigEyedCat.gif')
     # 3. Make a new turtle
-
+    mrgreen = turtle.Turtle()
     # 4. Set the turtle color and pen color to red (or any color you want)
     #    using .color('red', 'red')
-
+    mrgreen.color('red', 'red')
     # 5. Set the turtle width to 0 so no outlines are drawn
-
+    mrgreen.width(0)
     # 6. Set the turtle speed to 0 (fastest)
-
+    mrgreen.speed(0)
     # 7. Run the program and click on one of the cat's eyes. 
     #    The x,y position of the eye will be printed at the bottom of your
     #    processing window.
@@ -82,9 +82,11 @@ if __name__ == '__main__':
     #    and initialize them:
     #    left_eye  = Eye(eye=my_turtle, x=-34, y=11, radius=30)
     #    right_eye = Eye(eye=my_turtle, x=40, y=-5, radius=30)
-
+    lefteye = Eye(eye=mrgreen, x = -29, y = 13, radius = 20)
+    righteye = Eye(eye=mrgreen, x = 45, y = -4, radius = 20)
     # 9. Call the .draw() method on BOTH eye variables
-
+    lefteye.draw()
+    righteye.draw()
 
 # ===================== DO NOT EDIT THE CODE BELOW ============================
     window.onclick(screen_clicked)

@@ -42,11 +42,11 @@ if __name__ == '__main__':
             mrgreen.width(3)
         # Use the get_next_color function to set the turtle pencolor,
         # *hint .pencolor(get_next_color(i))
-    mrgreen.pencolor(get_next_color(i))
+        mrgreen.pencolor(get_next_color(i))
         # Move the turtle forward by the loop variable, *hint .forward(i)
-    mrgreen.forward(i)
+        mrgreen.forward(i)
         # Turn the turtle to the right by the angle variable + 1
-    mrgreen.right(i+1)
+        mrgreen.right(ang+1)
     # Hide your turtle so you can see the pattern.
     mrgreen.hideturtle()
     # Check the pattern against the picture in the recipe. If it matches, you are done!
