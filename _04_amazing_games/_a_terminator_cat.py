@@ -44,10 +44,11 @@ def key_pressed():
     # when you press the space bar. Run the program to test it.
 
     # 10. Increment the x and y variables of the 2 eye variables by 5:
-    #     left_eye.x += 5
-    
+    lefteye.x += 5
+    righteye.x += 5
     # 11. Call the .draw() method for both eye variables.
-
+    lefteye.draw()
+    righteye.draw()
 
 if __name__ == '__main__':
     window = turtle.Screen()
