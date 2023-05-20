@@ -25,7 +25,7 @@ if __name__ == '__main__':
             # 8. Tell them it's too high
             simpledialog.askstring(title='Your guess is...', prompt = "Your guess if too high. Please try again.")
         # 9. Else if the guess is low
-        if guess <= random_num:
+        if guess < random_num:
             # 10. Tell them it's too low
             simpledialog.askstring(title= 'Your guess is...', prompt = "Your guess is too low. Please try again.")
     #11. Outside of the loop, tell the user they lost

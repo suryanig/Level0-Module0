@@ -11,7 +11,7 @@ if __name__ == '__main__':
     # name = simpledialog.askstring(title='Greeter', prompt="What is your name?")
     name = simpledialog.askstring(title='Greeter', prompt="What is your name?")
     # Show a message box with your message using the .showinfo() method
-    name.showinfo()
+    messagebox.showinfo()
     # Print your message to the console using the print() function
     name.print()
     # Show an error message using messagebox.showerror()
